@@ -1,0 +1,11 @@
+md-sidenav-container{
+  height: 100%;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.main{
+  flex:1;
+}

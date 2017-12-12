@@ -1,0 +1,20 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<md-sidenav-container>
+  <md-sidenav #sidenav mode="over">
+    <app-sidebar>我是侧边栏</app-sidebar>
+  </md-sidenav>
+
+    <div class="container">
+
+      <header>
+        <app-header (toggle)="sidenav.open()"></app-header>
+      </header>
+      <main class="main">
+      </main>
+      <footer>
+        <app-footer></app-footer>
+      </footer>
+
+    </div>
+</md-sidenav-container>
+
